@@ -1,0 +1,708 @@
+[{
+  "_id": {
+    "$oid": "66baf0ffecfc5b0c31a22278"
+  },
+  "testCaseID": "EP-T701",
+  "description": "Confirmation Message Display",
+  "module": "Inventory management",
+  "priority": "Normal",
+  "projectid": "504",
+  "createdOn": "Thu Jul 25 05:30:00 IST 2024",
+  "scriptName": "",
+  "linkedUserstories": "EP-509",
+  "testCaseType": "",
+  "release": "R_06",
+  "sprint": "",
+  "testCaseName": "",
+  "testStep": [
+    "<pre>1. Log in as a store manager.\n\n</pre>",
+    "2. Navigate to the inventory page.<br /><br />",
+    "3. Select a product to remove.<br /><br />",
+    "4. Click on the \"Remove\" button."
+  ],
+  "expectedResult": [
+    "<pre>A confirmation message should be displayed before removing the product from the inventory.</pre>",
+    "<pre>A confirmation message should be displayed before removing the product from the inventory.</pre>",
+    "<pre>A confirmation message should be displayed before removing the product from the inventory.</pre>",
+    "<pre>A confirmation message should be displayed before removing the product from the inventory.</pre>"
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "2024-07-31 11:20",
+  "businessCritical": true,
+  "domain": "e-commerce",
+  "_class": "com.cognizant.collector.jirazephyr.beans.rts.RTSTestCase"
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779bdc"
+  },
+  "testCaseID": "Mod-1-US-1-TC-1",
+  "description": "This test case verifies that the loan repayment calculator allows the user to input the loan amount, interest rate, and loan term, and that the inputs are correctly labeled and function as expected.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T06:37:30.917055Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_08",
+  "sprint": "",
+  "testCaseName": " Loan Repayment Calculator Inputs",
+  "testStep": [
+    "Navigate to the loan repayment calculator page.",
+    "Check for the presence of the input fields: loan amount, interest rate, and loan term.",
+    "Enter valid values for each input field."
+  ],
+  "expectedResult": [
+    "The loan repayment calculator should have input fields for loan amount, interest rate, and loan term, and should accept valid input values."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779bdd"
+  },
+  "testCaseID": "Mod-1-US-1-TC-2",
+  "description": "This test case verifies that the loan repayment calculator correctly calculates the monthly repayment amount based on the input values.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T06:37:32.309977Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_08",
+  "sprint": "",
+  "testCaseName": " Monthly Repayment Calculation",
+  "testStep": [
+    "Navigate to the loan repayment calculator page.",
+    "Enter valid values for the loan amount, interest rate, and loan term input fields.",
+    "Click the \"Calculate\" button."
+  ],
+  "expectedResult": [
+    "The loan repayment calculator should display the monthly repayment amount based on the input values."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779bde"
+  },
+  "testCaseID": "Mod-1-US-1-TC-3",
+  "description": "This test case verifies that the loan repayment calculator correctly calculates the total amount of interest paid over the loan term based on the input values.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T06:37:32.312976Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_08",
+  "sprint": "",
+  "testCaseName": " Total Interest Calculation",
+  "testStep": [
+    "Navigate to the loan repayment calculator page.",
+    "Enter valid values for the loan amount, interest rate, and loan term input fields.",
+    "Click the \"Calculate\" button."
+  ],
+  "expectedResult": [
+    "The loan repayment calculator should display the total amount of interest paid over the loan term based on the input values."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779bdf"
+  },
+  "testCaseID": "Mod-1-US-2-TC-1",
+  "description": "This test case verifies that the repayment calculator allows the user to input multiple loan options, including loan amount, interest rate, and loan term. It ensures that the user can enter valid information and the calculator can process it correctly.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T06:37:32.316980Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_08",
+  "sprint": "",
+  "testCaseName": " Loan Options Input",
+  "testStep": [
+    "Navigate to the loan options page.",
+    "Enter loan amount, interest rate, and loan term for multiple loan options."
+  ],
+  "expectedResult": [
+    "The repayment calculator should allow the user to input multiple loan options, including loan amount, interest rate, and loan term."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779be0"
+  },
+  "testCaseID": "Mod-1-US-2-TC-2",
+  "description": "This test case verifies that the repayment calculator displays the monthly repayment amount for each loan option. It ensures that the user can easily compare the repayment amounts for each option.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T06:37:32.322089Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_08",
+  "sprint": "",
+  "testCaseName": " Monthly Repayment Amount Display",
+  "testStep": [
+    "Navigate to the loan options page.",
+    "Enter loan amount, interest rate, and loan term for multiple loan options.",
+    "Check that the monthly repayment amount is displayed for each option."
+  ],
+  "expectedResult": [
+    "The calculator should display the monthly repayment amount for each loan option."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779be1"
+  },
+  "testCaseID": "Mod-1-US-2-TC-3",
+  "description": "This test case verifies that the repayment calculator displays the total amount of interest paid over the loan term for each option. It ensures that the user can easily compare the interest paid for each option.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T06:37:32.324086Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_08",
+  "sprint": "",
+  "testCaseName": " Total Interest Paid Display",
+  "testStep": [
+    "Navigate to the loan options page.",
+    "Enter loan amount, interest rate, and loan term for multiple loan options.",
+    "Check that the total amount of interest paid over the loan term is displayed for each option."
+  ],
+  "expectedResult": [
+    "The calculator should also display the total amount of interest paid over the loan term for each option."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779be2"
+  },
+  "testCaseID": "Mod-2-US-1-TC-1",
+  "description": "This test case verifies that the credit card application form is easily accessible from the bank's website. It ensures that users can navigate to the form without any difficulty.",
+  "priority": "Normal",
+  "module": "credit cards",
+  "projectid": "",
+  "createdOn": "2024-08-21T06:37:32.331087Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-1",
+  "testCaseType": "",
+  "release": "R_08",
+  "sprint": "",
+  "testCaseName": " Accessing Credit Card Application Form",
+  "testStep": [
+    "1. Navigate to the bank's website.",
+    "2. Look for the credit card section.",
+    "3. Click on the \"Apply Now\" button."
+  ],
+  "expectedResult": [
+    "The credit card application form should be easily accessible from the bank's website."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779be3"
+  },
+  "testCaseID": "Mod-2-US-1-TC-2",
+  "description": "This test case verifies that users can successfully submit the credit card application form online and receive a confirmation of their application. It ensures that the form functions as expected and that users receive appropriate feedback after submitting the form.",
+  "priority": "Normal",
+  "module": "credit cards",
+  "projectid": "",
+  "createdOn": "2024-08-21T06:37:32.336179Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-1",
+  "testCaseType": "",
+  "release": "R_08",
+  "sprint": "",
+  "testCaseName": " Submitting Credit Card Application Form",
+  "testStep": [
+    "1. Navigate to the credit card application form.",
+    "2. Fill in all required personal information fields such as name, address, and contact details.",
+    "3. Fill in all required financial information fields such as income and employment status.",
+    "4. Submit the application form.",
+    "5. Check for confirmation of application."
+  ],
+  "expectedResult": [
+    "The user should be able to submit the application form online and receive a confirmation of their application."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779be4"
+  },
+  "testCaseID": "Mod-2-US-2-TC-1",
+  "description": "This test case verifies that the user can log in to their online banking account to view their credit card balance and transaction history. It ensures that the balance is displayed prominently on the account dashboard and that the transaction history is easily accessible with details such as the date, amount, and merchant name for each transaction.",
+  "priority": "Normal",
+  "module": "credit cards",
+  "projectid": "",
+  "createdOn": "2024-08-21T06:37:32.341286Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-2",
+  "testCaseType": "",
+  "release": "R_08",
+  "sprint": "",
+  "testCaseName": " Login to View Credit Card Balance and Transaction History",
+  "testStep": [
+    "1. Navigate to the login page.",
+    "2. Enter valid login credentials.",
+    "3. Click on the credit card section of the account dashboard.",
+    "4. Verify that the credit card balance is displayed prominently.",
+    "5. Click on the transaction history section.",
+    "6. Verify that the transaction history is easily accessible and includes details such as the date, amount, and merchant name for each transaction."
+  ],
+  "expectedResult": [
+    "The user should be able to log in to their online banking account to view their credit card balance and transaction history. The balance should be displayed prominently on the account dashboard, and the transaction history should be easily accessible with details such as the date, amount, and merchant name for each transaction."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779be5"
+  },
+  "testCaseID": "Mod-2-US-2-TC-2",
+  "description": "This test case verifies that the user can filter and search the transaction history to find specific transactions. It ensures that the search function works correctly and that the filtered results are accurate.",
+  "priority": "Normal",
+  "module": "credit cards",
+  "projectid": "",
+  "createdOn": "2024-08-21T06:37:32.343287Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-2",
+  "testCaseType": "",
+  "release": "R_08",
+  "sprint": "",
+  "testCaseName": " Filter and Search Transaction History",
+  "testStep": [
+    "1. Navigate to the transaction history section.",
+    "2. Enter a search term in the search bar (e.g., merchant name, transaction amount, date).",
+    "3. Click on the filter button.",
+    "4. Verify that the filtered results are accurate and match the search term entered."
+  ],
+  "expectedResult": [
+    "The user should be able to filter and search the transaction history to find specific transactions. The search function should work correctly, and the filtered results should be accurate."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779be6"
+  },
+  "testCaseID": "Mod-2-US-2-TC-3",
+  "description": "This test case verifies that the user can view the details of a specific transaction in the transaction history. It ensures that the transaction details are displayed accurately and that the user can access additional information if needed.",
+  "priority": "Normal",
+  "module": "credit cards",
+  "projectid": "",
+  "createdOn": "2024-08-21T06:37:32.347290Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-2",
+  "testCaseType": "",
+  "release": "R_08",
+  "sprint": "",
+  "testCaseName": " View Transaction Details",
+  "testStep": [
+    "1. Navigate to the transaction history section.",
+    "2. Click on a specific transaction.",
+    "3. Verify that the transaction details are displayed accurately (e.g., date, amount, merchant name, transaction type).",
+    "4. Click on any additional links or buttons to access more information if available."
+  ],
+  "expectedResult": [
+    "The user should be able to view the details of a specific transaction in the transaction history. The transaction details should be displayed accurately, and the user should be able to access additional information if needed."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59131e6e863dc3bf6db18"
+  },
+  "testCaseID": "Mod-1-US-1-TC-1",
+  "description": "This test case verifies that the loan repayment calculator allows the user to input the loan amount, interest rate, and loan term, and that the inputs are correctly labeled and function as expected.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T07:03:07.469417Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "Z_098",
+  "sprint": "",
+  "testCaseName": " Loan Repayment Calculator Inputs",
+  "testStep": [
+    "Navigate to the loan repayment calculator page.",
+    "Check for the presence of the input fields: loan amount, interest rate, and loan term.",
+    "Enter valid values for each input field."
+  ],
+  "expectedResult": [
+    "The loan repayment calculator should have input fields for loan amount, interest rate, and loan term, and should accept valid values for each input."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59131e6e863dc3bf6db19"
+  },
+  "testCaseID": "Mod-1-US-1-TC-2",
+  "description": "This test case verifies that the loan repayment calculator correctly calculates the monthly repayment amount based on the input values.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T07:03:13.057889Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "Z_098",
+  "sprint": "",
+  "testCaseName": " Monthly Repayment Calculation",
+  "testStep": [
+    "Navigate to the loan repayment calculator page.",
+    "Enter valid values for the loan amount, interest rate, and loan term input fields.",
+    "Click the \"Calculate\" button."
+  ],
+  "expectedResult": [
+    "The loan repayment calculator should display the correct monthly repayment amount based on the input values."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59132e6e863dc3bf6db1a"
+  },
+  "testCaseID": "Mod-1-US-1-TC-3",
+  "description": "This test case verifies that the loan repayment calculator correctly calculates the total interest paid over the loan term based on the input values.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T07:03:13.059886Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "Z_098",
+  "sprint": "",
+  "testCaseName": " Total Interest Calculation",
+  "testStep": [
+    "Navigate to the loan repayment calculator page.",
+    "Enter valid values for the loan amount, interest rate, and loan term input fields.",
+    "Click the \"Calculate\" button."
+  ],
+  "expectedResult": [
+    "The loan repayment calculator should display the correct total interest paid over the loan term based on the input values."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59132e6e863dc3bf6db1b"
+  },
+  "testCaseID": "Mod-1-US-2-TC-1",
+  "description": "This test case verifies that the repayment calculator allows the user to input multiple loan options, including loan amount, interest rate, and loan term. It ensures that the calculator can handle different loan options and display the correct repayment amount and total interest paid for each option.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T07:03:13.069392Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "Z_098",
+  "sprint": "",
+  "testCaseName": " Loan Options Input",
+  "testStep": [
+    "1. Navigate to the loan repayment calculator page.",
+    "2. Input loan amount, interest rate, and loan term for multiple loan options.",
+    "3. Click on the calculate button."
+  ],
+  "expectedResult": [
+    "The calculator should display the monthly repayment amount and total interest paid for each loan option."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59132e6e863dc3bf6db1c"
+  },
+  "testCaseID": "Mod-1-US-2-TC-2",
+  "description": "This test case verifies that the repayment amount is calculated correctly using the standard amortization formula. It ensures that the calculator uses the correct formula to calculate the repayment amount and displays the correct result.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T07:03:13.073508Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "Z_098",
+  "sprint": "",
+  "testCaseName": " Repayment Amount Calculation",
+  "testStep": [
+    "1. Navigate to the loan repayment calculator page.",
+    "2. Input loan amount, interest rate, and loan term for a loan option.",
+    "3. Click on the calculate button.",
+    "4. Verify that the repayment amount displayed is calculated using the standard amortization formula."
+  ],
+  "expectedResult": [
+    "The calculator should display the correct repayment amount calculated using the standard amortization formula."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59132e6e863dc3bf6db1d"
+  },
+  "testCaseID": "Mod-1-US-2-TC-3",
+  "description": "This test case verifies that the user can easily compare different loan options based on the repayment amount and total interest paid. It ensures that the calculator displays the repayment amount and total interest paid for each loan option in a clear and easy-to-understand format.",
+  "priority": "Normal",
+  "module": "repayment calculator",
+  "projectid": "",
+  "createdOn": "2024-08-21T07:03:13.076501Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "Z_098",
+  "sprint": "",
+  "testCaseName": " Comparison of Loan Options",
+  "testStep": [
+    "1. Navigate to the loan repayment calculator page.",
+    "2. Input loan amount, interest rate, and loan term for multiple loan options.",
+    "3. Click on the calculate button.",
+    "4. Verify that the repayment amount and total interest paid for each loan option are displayed in a clear and easy-to-understand format.",
+    "5. Compare the different loan options based on the repayment amount and total interest paid."
+  ],
+  "expectedResult": [
+    "The calculator should display the repayment amount and total interest paid for each loan option in a clear and easy-to-understand format, allowing the user to easily compare different loan options."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59132e6e863dc3bf6db1e"
+  },
+  "testCaseID": "Mod-2-US-1-TC-1",
+  "description": "This test case verifies that the credit card application form is easily accessible from the bank's website. It ensures that users can find and access the form without difficulty.",
+  "priority": "Normal",
+  "module": "credit cards",
+  "projectid": "",
+  "createdOn": "2024-08-21T07:03:13.080621Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-1",
+  "testCaseType": "",
+  "release": "Z_098",
+  "sprint": "",
+  "testCaseName": " Accessing Credit Card Application Form",
+  "testStep": [
+    "1. Navigate to the bank's website.",
+    "2. Look for a link or button that leads to the credit card application form.",
+    "3. Click on the link or button to access the form."
+  ],
+  "expectedResult": [
+    "The credit card application form should be easily accessible from the bank's website."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59132e6e863dc3bf6db1f"
+  },
+  "testCaseID": "Mod-2-US-1-TC-2",
+  "description": "This test case verifies that the credit card application form requires the user to provide personal and financial information as specified in the acceptance criteria. It ensures that users can enter valid information, receive appropriate error messages for invalid inputs, and successfully submit the form.",
+  "priority": "Normal",
+  "module": "credit cards",
+  "projectid": "",
+  "createdOn": "2024-08-21T07:03:13.085712Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-1",
+  "testCaseType": "",
+  "release": "Z_098",
+  "sprint": "",
+  "testCaseName": " Completing Credit Card Application Form",
+  "testStep": [
+    "1. Access the credit card application form.",
+    "2. Fill in the required personal information fields such as name, address, and contact details.",
+    "3. Fill in the required financial information fields such as income and employment status.",
+    "4. Submit the application form."
+  ],
+  "expectedResult": [
+    "The credit card application form should require the user to provide personal and financial information as specified in the acceptance criteria. The user should be able to submit the application form online and receive a confirmation of their application."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59132e6e863dc3bf6db20"
+  },
+  "testCaseID": "Mod-2-US-2-TC-1",
+  "description": "This test case verifies that the user can access their credit card statement online from their banking account. It ensures that the statement displays the user's current balance, available credit, recent transactions, payment due date, and minimum payment amount.",
+  "priority": "Normal",
+  "module": "credit cards",
+  "projectid": "",
+  "createdOn": "2024-08-21T07:03:13.089700Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-2",
+  "testCaseType": "",
+  "release": "Z_098",
+  "sprint": "",
+  "testCaseName": " Accessing Credit Card Statement Online",
+  "testStep": [
+    "1. Log in to the user's online banking account.",
+    "2. Navigate to the credit card section.",
+    "3. Click on the credit card statement link.",
+    "4. Verify that the statement displays the user's current balance, available credit, recent transactions, payment due date, and minimum payment amount."
+  ],
+  "expectedResult": [
+    "The credit card statement should be easily accessible from the user's online banking account and should display all the required information."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59132e6e863dc3bf6db21"
+  },
+  "testCaseID": "Mod-2-US-2-TC-2",
+  "description": "This test case verifies that the user can download and print their credit card statement for their records.",
+  "priority": "Normal",
+  "module": "credit cards",
+  "projectid": "",
+  "createdOn": "2024-08-21T07:03:13.093073Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-2",
+  "testCaseType": "",
+  "release": "Z_098",
+  "sprint": "",
+  "testCaseName": " Downloading and Printing Credit Card Statement",
+  "testStep": [
+    "1. Log in to the user's online banking account.",
+    "2. Navigate to the credit card section.",
+    "3. Click on the credit card statement link.",
+    "4. Click on the download or print button.",
+    "5. Verify that the statement is downloaded or printed successfully."
+  ],
+  "expectedResult": [
+    "The user should be able to download and print their credit card statement for their records."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59132e6e863dc3bf6db22"
+  },
+  "testCaseID": "Mod-2-US-2-TC-3",
+  "description": "This test case verifies that the credit card statement displays accurate information. It ensures that the statement reflects the user's actual spending and payments.",
+  "priority": "Normal",
+  "module": "credit cards",
+  "projectid": "",
+  "createdOn": "2024-08-21T07:03:13.101161Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-2",
+  "testCaseType": "",
+  "release": "Z_098",
+  "sprint": "",
+  "testCaseName": " Verifying Credit Card Statement Accuracy",
+  "testStep": [
+    "1. Log in to the user's online banking account.",
+    "2. Navigate to the credit card section.",
+    "3. Click on the credit card statement link.",
+    "4. Verify that the statement reflects the user's actual spending and payments."
+  ],
+  "expectedResult": [
+    "The credit card statement should accurately reflect the user's spending and payments."
+  ],
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "domain": "Banking",
+  "_class": ""
+}]

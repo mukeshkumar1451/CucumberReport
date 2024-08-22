@@ -1,0 +1,241 @@
+[{
+  "_id": {
+    "$oid": "66baf1a6ecfc5b0c31a24067"
+  },
+  "userStoryID": "EP-470",
+  "description": "As a user, I want to be able to subscribe to the newsletter so that I can receive updates and news about the company and its products.",
+  "createdOn": {
+    "$date": "2024-07-25T09:11:59.151Z"
+  },
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_04",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Newsletter subscription",
+  "jiraProjectKey": "EP",
+  "lastUpdated": "2024-08-01 19:08",
+  "domain": "e-commerce",
+  "_class": "com.cognizant.collector.jirazephyr.beans.rts.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c58b2c31a6c89eb3779bd8"
+  },
+  "userStoryID": "Mod-1-US-1",
+  "description": "\nAs a borrower, I want to be able to calculate my monthly loan repayment amount so that I can plan my budget accordingly.",
+  "acceptanceCriteria": [
+    "- The repayment calculator should allow the user to input the loan amount, interest rate, and loan term.",
+    "- The calculator should display the monthly repayment amount based on the input values.",
+    "- The repayment amount should be calculated using the standard amortization formula.",
+    "- The calculator should also display the total amount of interest paid over the loan term."
+  ],
+  "createdOn": "2024-08-21T06:37:30.917055Z",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_08",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "repayment calculator",
+  "jiraProjectKey": "projectKey",
+  "lastUpdated": "",
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2c31a6c89eb3779bd9"
+  },
+  "userStoryID": "Mod-1-US-2",
+  "description": "\nAs a borrower, I want to be able to compare different loan options and their repayment amounts so that I can choose the best option for me.",
+  "acceptanceCriteria": [
+    "- The repayment calculator should allow the user to input multiple loan options, including loan amount, interest rate, and loan term.",
+    "- The calculator should display the monthly repayment amount for each loan option.",
+    "- The repayment amounts should be calculated using the standard amortization formula.",
+    "- The calculator should also display the total amount of interest paid over the loan term for each option.",
+    "- The user should be able to easily compare the repayment amounts and interest paid for each loan option."
+  ],
+  "createdOn": "2024-08-21T06:37:32.316980Z",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_08",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "repayment calculator",
+  "jiraProjectKey": "projectKey",
+  "lastUpdated": "",
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779bda"
+  },
+  "userStoryID": "Mod-2-US-1",
+  "description": "\nAs a user, I want to be able to apply for a credit card online so that I can easily access credit and manage my finances.",
+  "acceptanceCriteria": [
+    "- The credit card application form should be easily accessible from the bank's website.",
+    "- The application form should require the user to provide personal information such as their name, address, and contact details.",
+    "- The application form should also require the user to provide financial information such as their income and employment status.",
+    "- The user should be able to submit the application form online and receive a confirmation of their application."
+  ],
+  "createdOn": "2024-08-21T06:37:32.331087Z",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_08",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "credit cards",
+  "jiraProjectKey": "projectKey",
+  "lastUpdated": "",
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c58b2d31a6c89eb3779bdb"
+  },
+  "userStoryID": "Mod-2-US-2",
+  "description": "\nAs a user, I want to be able to view my credit card balance and transaction history online so that I can keep track of my spending and payments.",
+  "acceptanceCriteria": [
+    "- The user should be able to log in to their online banking account to view their credit card balance and transaction history.",
+    "- The balance should be displayed prominently on the account dashboard.",
+    "- The transaction history should be easily accessible and should include details such as the date, amount, and merchant name for each transaction.",
+    "- The user should be able to filter and search the transaction history to find specific transactions."
+  ],
+  "createdOn": "2024-08-21T06:37:32.341286Z",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_08",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "credit cards",
+  "jiraProjectKey": "projectKey",
+  "lastUpdated": "",
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59131e6e863dc3bf6db14"
+  },
+  "userStoryID": "Mod-1-US-1",
+  "description": "\nAs a borrower, I want to be able to calculate my monthly loan repayment amount so that I can plan my budget accordingly.",
+  "acceptanceCriteria": [
+    "- The repayment calculator should allow the user to input the loan amount, interest rate, and loan term.",
+    "- The calculator should display the monthly repayment amount based on the input values.",
+    "- The repayment amount should be calculated using the standard amortization formula.",
+    "- The calculator should also display the total interest paid over the loan term."
+  ],
+  "createdOn": "2024-08-21T07:03:07.469417Z",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "Z_098",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "repayment calculator",
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59131e6e863dc3bf6db15"
+  },
+  "userStoryID": "Mod-1-US-2",
+  "description": "\nAs a borrower, I want to be able to compare different loan options by calculating the monthly repayment amount for each option.",
+  "acceptanceCriteria": [
+    "- The repayment calculator should allow the user to input multiple loan options, including loan amount, interest rate, and loan term.",
+    "- The calculator should display the monthly repayment amount for each loan option.",
+    "- The repayment amount should be calculated using the standard amortization formula.",
+    "- The calculator should also display the total interest paid over the loan term for each option.",
+    "- The user should be able to easily compare the different loan options based on the repayment amount and total interest paid."
+  ],
+  "createdOn": "2024-08-21T07:03:13.069392Z",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "Z_098",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "repayment calculator",
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59131e6e863dc3bf6db16"
+  },
+  "userStoryID": "Mod-2-US-1",
+  "description": "\nAs a user, I want to be able to apply for a credit card online so that I can easily access credit and manage my finances.",
+  "acceptanceCriteria": [
+    "- The credit card application form should be easily accessible from the bank's website.",
+    "- The application form should require the user to provide personal information such as their name, address, and contact details.",
+    "- The application form should also require the user to provide financial information such as their income and employment status.",
+    "- The user should be able to submit the application form online and receive a confirmation of their application."
+  ],
+  "createdOn": "2024-08-21T07:03:13.080621Z",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "Z_098",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "credit cards",
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "domain": "Banking",
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "66c59131e6e863dc3bf6db17"
+  },
+  "userStoryID": "Mod-2-US-2",
+  "description": "\nAs a user, I want to be able to view my credit card statement online so that I can keep track of my spending and payments.",
+  "acceptanceCriteria": [
+    "- The credit card statement should be easily accessible from the user's online banking account.",
+    "- The statement should display the user's current balance, available credit, and any recent transactions.",
+    "- The statement should also display the user's payment due date and minimum payment amount.",
+    "- The user should be able to download and print their credit card statement for their records."
+  ],
+  "createdOn": "2024-08-21T07:03:13.089700Z",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "Z_098",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "credit cards",
+  "jiraProjectKey": "EP",
+  "lastUpdated": "",
+  "domain": "Banking",
+  "_class": ""
+}]
