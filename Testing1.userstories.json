@@ -1,0 +1,950 @@
+[{
+  "_id": {
+    "$oid": "66c6e929a9e240d911b97703"
+  },
+  "userStoryID": "Mod-1-US-1",
+  "description": "\nAs a user, I want to be able to calculate my monthly loan repayment amount based on the loan amount, interest rate, and loan term so that I can plan my finances accordingly.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "B_088",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "repayment calculator",
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:36.917514Z",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e929a9e240d911b97704"
+  },
+  "userStoryID": "Mod-1-US-2",
+  "description": "\nAs a user, I want to be able to compare different loan options by using the repayment calculator to calculate the monthly repayment amount for each option.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "B_088",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "repayment calculator",
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.343238Z",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e929a9e240d911b97705"
+  },
+  "userStoryID": "Mod-2-US-1",
+  "description": "\nAs a user, I want to be able to view the available credit card options and their features so that I can choose the one that best suits my needs.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "B_088",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "credit cards",
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.366759Z",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e929a9e240d911b97706"
+  },
+  "userStoryID": "Mod-2-US-2",
+  "description": "\nAs a user, I want to be able to apply for a credit card online and receive a decision quickly.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "B_088",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "credit cards",
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.386620Z",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e995b49d76458238c3cd"
+  },
+  "userStoryID": "Mod-1-US-1",
+  "description": "\nAs a HR manager, I want to be able to view the employee's personal information such as name, address, contact details, and emergency contact details so that I can maintain accurate employee records.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e995b49d76458238c3ce"
+  },
+  "userStoryID": "Mod-1-US-2",
+  "description": "\nAs a HR manager, I want to be able to view the employee's job details such as job title, department, and manager so that I can manage the employee's job responsibilities effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e995b49d76458238c3cf"
+  },
+  "userStoryID": "Mod-1-US-3",
+  "description": "\nAs a HR manager, I want to be able to view the employee's salary details such as salary amount, pay frequency, and payment method so that I can manage the employee's compensation effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e995b49d76458238c3d0"
+  },
+  "userStoryID": "Mod-1-US-4",
+  "description": "\nAs a HR manager, I want to be able to view the employee's performance review history so that I can assess their performance and provide feedback.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e995b49d76458238c3d1"
+  },
+  "userStoryID": "Mod-1-US-5",
+  "description": "\nAs a HR manager, I want to be able to view the employee's training history so that I can assess their skills and provide training opportunities.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3d2"
+  },
+  "userStoryID": "Mod-1-US-6",
+  "description": "\nAs a HR manager, I want to be able to view the employee's leave history so that I can manage their leave requests effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3d3"
+  },
+  "userStoryID": "Mod-1-US-7",
+  "description": "\nAs a HR manager, I want to be able to view the employee's attendance history so that I can manage their attendance effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3d4"
+  },
+  "userStoryID": "Mod-1-US-8",
+  "description": "\nAs a HR manager, I want to be able to view the employee's benefits information such as health insurance, retirement plans, and other benefits so that I can manage their benefits effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3d5"
+  },
+  "userStoryID": "Mod-1-US-9",
+  "description": "\nAs a HR manager, I want to be able to view the employee's disciplinary history so that I can manage their behavior effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3d6"
+  },
+  "userStoryID": "Mod-1-US-10",
+  "description": "\nAs a HR manager, I want to be able to view the employee's termination history so that I can manage their employment status effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3d7"
+  },
+  "userStoryID": "Mod-1-US-11",
+  "description": "\nAs a HR manager, I want to be able to view the employee's work schedule so that I can manage their work hours effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3d8"
+  },
+  "userStoryID": "Mod-1-US-12",
+  "description": "\nAs a HR manager, I want to be able to view the employee's job performance metrics such as productivity, quality, and efficiency so that I can assess their performance.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3d9"
+  },
+  "userStoryID": "Mod-1-US-13",
+  "description": "\nAs a HR manager, I want to be able to view the employee's career development plan so that I can provide guidance and support.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3da"
+  },
+  "userStoryID": "Mod-1-US-14",
+  "description": "\nAs a HR manager, I want to be able to view the employee's job application history so that I can assess their qualifications and experience.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3db"
+  },
+  "userStoryID": "Mod-1-US-15",
+  "description": "\nAs a HR manager, I want to be able to view the employee's work-related expenses so that I can manage their expenses effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3dc"
+  },
+  "userStoryID": "Mod-1-US-16",
+  "description": "\nAs a HR manager, I want to be able to view the employee's work-related travel history so that I can manage their travel expenses effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3dd"
+  },
+  "userStoryID": "Mod-1-US-17",
+  "description": "\nAs a HR manager, I want to be able to view the employee's work-related training expenses so that I can manage their training expenses effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3de"
+  },
+  "userStoryID": "Mod-1-US-18",
+  "description": "\nAs a HR manager, I want to be able to view the employee's work-related equipment and supplies so that I can manage their inventory effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3df"
+  },
+  "userStoryID": "Mod-1-US-19",
+  "description": "\nAs a HR manager, I want to be able to view the employee's work-related certifications and licenses so that I can manage their compliance effectively.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3e0"
+  },
+  "userStoryID": "Mod-1-US-20",
+  "description": "\nAs a HR manager, I want to be able to view the employee's work-related awards and recognitions so that I can acknowledge their achievements.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Human Resource",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3e1"
+  },
+  "userStoryID": "Mod-2-US-1",
+  "description": "\nAs a hiring manager, I want to be able to create job postings and manage the application process so that I can efficiently find and hire qualified candidates.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3e2"
+  },
+  "userStoryID": "Mod-2-US-2",
+  "description": "\nAs an employee, I want to be able to set career goals and track my progress towards achieving them so that I can develop my skills and advance in my career.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3e3"
+  },
+  "userStoryID": "Mod-2-US-3",
+  "description": "\nAs a manager, I want to be able to conduct performance evaluations and provide feedback to my team members so that I can help them improve their performance and achieve their career goals.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3e4"
+  },
+  "userStoryID": "Mod-2-US-4",
+  "description": "\nAs an HR manager, I want to be able to manage employee data and track their employment history so that I can ensure compliance with company policies and regulations.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3e5"
+  },
+  "userStoryID": "Mod-2-US-5",
+  "description": "\nAs a recruiter, I want to be able to search for and identify potential candidates based on their skills and experience so that I can efficiently fill open positions.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3e6"
+  },
+  "userStoryID": "Mod-2-US-6",
+  "description": "\nAs an employee, I want to be able to access training and development resources so that I can improve my skills and advance in my career.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3e7"
+  },
+  "userStoryID": "Mod-2-US-7",
+  "description": "\nAs a manager, I want to be able to identify high-potential employees and provide them with opportunities for growth and development so that I can retain top talent and build a strong team.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3e8"
+  },
+  "userStoryID": "Mod-2-US-8",
+  "description": "\nAs an HR manager, I want to be able to manage employee benefits and compensation so that I can attract and retain top talent and ensure compliance with company policies and regulations.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3e9"
+  },
+  "userStoryID": "Mod-2-US-9",
+  "description": "\nAs a manager, I want to be able to provide feedback and recognition to my team members so that I can motivate and engage them in their work.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3ea"
+  },
+  "userStoryID": "Mod-2-US-10",
+  "description": "\nAs an employee, I want to be able to request time off and manage my schedule so that I can balance my work and personal life.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3eb"
+  },
+  "userStoryID": "Mod-2-US-11",
+  "description": "\nAs a manager, I want to be able to schedule and manage employee shifts so that I can ensure adequate coverage and optimize productivity.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3ec"
+  },
+  "userStoryID": "Mod-2-US-12",
+  "description": "\nAs an HR manager, I want to be able to manage employee onboarding and offboarding so that I can ensure a smooth transition for new hires and departing employees.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3ed"
+  },
+  "userStoryID": "Mod-2-US-13",
+  "description": "\nAs a manager, I want to be able to create and manage employee development plans so that I can help my team members achieve their career goals and improve their performance.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3ee"
+  },
+  "userStoryID": "Mod-2-US-14",
+  "description": "\nAs an employee, I want to be able to provide feedback and suggestions to my manager and HR so that I can contribute to a positive and productive work environment.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3ef"
+  },
+  "userStoryID": "Mod-2-US-15",
+  "description": "\nAs a manager, I want to be able to create and manage employee performance improvement plans so that I can help team members improve their performance and achieve their goals.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3f0"
+  },
+  "userStoryID": "Mod-2-US-16",
+  "description": "\nAs an HR manager, I want to be able to manage employee compliance training and track completion so that I can ensure compliance with company policies and regulations.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3f1"
+  },
+  "userStoryID": "Mod-2-US-17",
+  "description": "\nAs a manager, I want to be able to create and manage employee recognition programs so that I can motivate and engage my team members.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3f2"
+  },
+  "userStoryID": "Mod-2-US-18",
+  "description": "\nAs an employee, I want to be able to access and update my personal information and employment records so that I can ensure accuracy and compliance.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3f3"
+  },
+  "userStoryID": "Mod-2-US-19",
+  "description": "\nAs a manager, I want to be able to create and manage employee succession plans so that I can ensure continuity and stability in the organization.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3f4"
+  },
+  "userStoryID": "Mod-2-US-20",
+  "description": "\nAs an HR manager, I want to be able to generate reports and analyze data on employee performance, turnover, and other HR-related metrics so that I can make informed decisions and improve the organization's performance.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Talent Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3f5"
+  },
+  "userStoryID": "Mod-3-US-1",
+  "description": "\nAs a manager, I want to be able to view the attendance records of my employees so that I can ensure that they are meeting their work hours and schedule.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Workforce Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3f6"
+  },
+  "userStoryID": "Mod-3-US-2",
+  "description": "\nAs an employee, I want to be able to request time off for personal or medical reasons so that I can balance my work and personal life.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Workforce Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3f7"
+  },
+  "userStoryID": "Mod-3-US-3",
+  "description": "\nAs a manager, I want to be able to create and assign work schedules for my employees so that I can ensure that all tasks are completed on time.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Workforce Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3f8"
+  },
+  "userStoryID": "Mod-3-US-4",
+  "description": "\nAs an employee, I want to be able to view my work schedule and any upcoming tasks or shifts so that I can plan my personal life accordingly.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Workforce Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3f9"
+  },
+  "userStoryID": "Mod-3-US-5",
+  "description": "\nAs a manager, I want to be able to track the performance and productivity of my employees so that I can identify areas for improvement and provide feedback.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Workforce Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c3fa"
+  },
+  "userStoryID": "Mod-3-US-6",
+  "description": "\nAs an employee, I want to be able to view my performance metrics and receive feedback from my manager so that I can improve my work performance.",
+  "sprint": "",
+  "team": "",
+  "author": "",
+  "owner": "",
+  "projectid": "",
+  "release": "R_02",
+  "criticality": "",
+  "shortDescription": "",
+  "modules": "Workforce Management",
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.Userstories"
+}]

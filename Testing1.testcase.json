@@ -1,0 +1,1522 @@
+[{
+  "_id": {
+    "$oid": "66c6e929a9e240d911b97707"
+  },
+  "testCaseID": "Mod-1-US-1-TC-1",
+  "description": "This test case verifies that all fields in the loan repayment calculator are present, correctly labeled, and function as expected. It ensures that users can enter valid information, receive appropriate error messages for invalid inputs, and see the calculated monthly repayment amount.",
+  "module": "repayment calculator",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:36.917514Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Loan Repayment Calculator Fields",
+  "testStep": [
+    "Navigate to the loan repayment calculator page.",
+    "Check for the presence of the fields: loan amount, interest rate, and loan term.",
+    "Enter valid values in these fields.",
+    "Click on the calculate button."
+  ],
+  "expectedResult": [
+    "The loan repayment calculator should have fields for loan amount, interest rate, and loan term. The calculated monthly repayment amount should be displayed in a clear and easy-to-read format."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:36.917514Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e929a9e240d911b97708"
+  },
+  "testCaseID": "Mod-1-US-1-TC-2",
+  "description": "This test case verifies that the loan repayment calculator handles invalid inputs correctly. It ensures that appropriate error messages are displayed when invalid values are entered in the fields.",
+  "module": "repayment calculator",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.337240Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Invalid Input in Loan Repayment Calculator",
+  "testStep": [
+    "Navigate to the loan repayment calculator page.",
+    "Enter invalid values in the fields (e.g., negative loan amount, zero interest rate, non-numeric characters in loan term).",
+    "Click on the calculate button."
+  ],
+  "expectedResult": [
+    "The system should display appropriate error messages for invalid inputs and should not calculate the monthly repayment amount."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.337240Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e929a9e240d911b97709"
+  },
+  "testCaseID": "Mod-1-US-1-TC-3",
+  "description": "This test case verifies that the loan repayment calculator calculates the monthly repayment amount correctly based on the specified formula.",
+  "module": "repayment calculator",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.341240Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Loan Repayment Calculation Formula",
+  "testStep": [
+    "Navigate to the loan repayment calculator page.",
+    "Enter valid values in the fields: loan amount, interest rate, and loan term.",
+    "Calculate the monthly repayment amount manually using the specified formula.",
+    "Compare the calculated value with the value displayed by the system."
+  ],
+  "expectedResult": [
+    "The system should calculate the monthly repayment amount correctly based on the specified formula and should display the same value as the manually calculated value."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.341240Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e929a9e240d911b9770a"
+  },
+  "testCaseID": "Mod-1-US-2-TC-1",
+  "description": "This test case verifies that all fields in the loan calculator are present, correctly labeled, and function as expected. It ensures that users can enter valid information, receive appropriate error messages for invalid inputs, and see the calculated monthly repayment amount for each loan option.",
+  "module": "repayment calculator",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.343238Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Loan Calculator Fields",
+  "testStep": [
+    "Navigate to the loan calculator page.",
+    "Check for the presence of the fields: loan amount, interest rate, and loan term for each loan option.",
+    "Enter valid values for each field."
+  ],
+  "expectedResult": [
+    "The loan calculator should have fields for loan amount, interest rate, and loan term for each loan option."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.343238Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e929a9e240d911b9770b"
+  },
+  "testCaseID": "Mod-1-US-2-TC-2",
+  "description": "This test case ensures that the loan calculator allows users to input values for multiple loan options and see the calculated monthly repayment amount for each option. It verifies that the repayment amounts for each option are displayed in a clear and easy-to-read format.",
+  "module": "repayment calculator",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.350760Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Multiple Loan Options",
+  "testStep": [
+    "Navigate to the loan calculator page.",
+    "Enter valid values for the loan amount, interest rate, and loan term for two or more loan options."
+  ],
+  "expectedResult": [
+    "The repayment amounts for each option should be displayed in a clear and easy-to-read format."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.350760Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e92aa9e240d911b9770c"
+  },
+  "testCaseID": "Mod-1-US-2-TC-3",
+  "description": "This test case verifies that the loan calculator allows users to compare the repayment amounts for each loan option and make an informed decision about which loan option to choose. It ensures that the repayment amounts for each option are displayed side-by-side for easy comparison.",
+  "module": "repayment calculator",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.358761Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Loan Comparison",
+  "testStep": [
+    "Navigate to the loan calculator page.",
+    "Enter valid values for the loan amount, interest rate, and loan term for two or more loan options.",
+    "Compare the repayment amounts for each option."
+  ],
+  "expectedResult": [
+    "The repayment amounts for each option should be displayed side-by-side for easy comparison."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.358761Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e92aa9e240d911b9770d"
+  },
+  "testCaseID": "Mod-2-US-1-TC-1",
+  "description": "This test case verifies that the credit card page displays all available credit card options, their features, benefits, applicable fees, interest rates, and rewards programs. It also ensures that users can compare different credit card options side-by-side.",
+  "module": "credit cards",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.366759Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-1",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Credit Card Page Display",
+  "testStep": [
+    "1. Navigate to the credit card page.",
+    "2. Check for the presence of all available credit card options.",
+    "3. Verify that each credit card option displays its features, benefits, applicable fees, interest rates, and rewards programs.",
+    "4. Attempt to compare different credit card options side-by-side."
+  ],
+  "expectedResult": [
+    "The credit card page should display all available credit card options, their features, benefits, applicable fees, interest rates, and rewards programs. Users should be able to compare different credit card options side-by-side."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.366759Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e92aa9e240d911b9770e"
+  },
+  "testCaseID": "Mod-2-US-1-TC-2",
+  "description": "This test case verifies that users can select a credit card option that best suits their needs. It ensures that users can view the details of the selected credit card option and proceed with the application process.",
+  "module": "credit cards",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.371759Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-1",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Credit Card Option Selection",
+  "testStep": [
+    "1. Navigate to the credit card page.",
+    "2. Select a credit card option that best suits your needs.",
+    "3. Verify that the details of the selected credit card option are displayed.",
+    "4. Proceed with the application process."
+  ],
+  "expectedResult": [
+    "Users should be able to select a credit card option that best suits their needs, view the details of the selected credit card option, and proceed with the application process."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.371759Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e92aa9e240d911b9770f"
+  },
+  "testCaseID": "Mod-2-US-1-TC-3",
+  "description": "This test case verifies that users can successfully submit a credit card application. It ensures that users can enter valid information, receive appropriate error messages for invalid inputs, and successfully submit the application.",
+  "module": "credit cards",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.380622Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-1",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Credit Card Application Submission",
+  "testStep": [
+    "1. Navigate to the credit card page.",
+    "2. Select a credit card option that best suits your needs.",
+    "3. Proceed with the application process.",
+    "4. Enter valid information in all required fields.",
+    "5. Attempt to submit the application with invalid information."
+  ],
+  "expectedResult": [
+    "Users should be able to enter valid information, receive appropriate error messages for invalid inputs, and successfully submit the credit card application."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.380622Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e92aa9e240d911b97710"
+  },
+  "testCaseID": "Mod-2-US-2-TC-1",
+  "description": "This test case verifies that all fields in the credit card application form are present, correctly labeled, and function as expected. It ensures that users can enter valid information, receive appropriate error messages for invalid inputs, and successfully submit the form.",
+  "module": "credit cards",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.386620Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-2",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Credit Card Application Form Fields",
+  "testStep": [
+    "Navigate to the credit card application page.",
+    "Check for the presence of the fields: name, address, phone number, email, income, and employment status."
+  ],
+  "expectedResult": [
+    "The credit card application form should have fields for name, address, phone number, email, income, and employment status."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.386620Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e92aa9e240d911b97711"
+  },
+  "testCaseID": "Mod-2-US-2-TC-2",
+  "description": "This test case ensures that the user receives a confirmation email after submitting their credit card application. It verifies that the email contains all necessary information and is sent to the correct email address.",
+  "module": "credit cards",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.391620Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-2",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Confirmation Email",
+  "testStep": [
+    "Submit a credit card application.",
+    "Check the email associated with the submitted application for a confirmation email."
+  ],
+  "expectedResult": [
+    "The user should receive a confirmation email containing all necessary information at the email address provided in the application."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.391620Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e92aa9e240d911b97712"
+  },
+  "testCaseID": "Mod-2-US-2-TC-3",
+  "description": "This test case verifies that the user receives a decision on their credit card application within a reasonable timeframe. It ensures that the decision is communicated clearly and accurately to the user.",
+  "module": "credit cards",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.402620Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-2",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Credit Card Application Decision",
+  "testStep": [
+    "Submit a credit card application.",
+    "Wait for a reasonable timeframe for a decision to be made.",
+    "Check for a decision on the credit card application."
+  ],
+  "expectedResult": [
+    "The user should receive a clear and accurate decision on their credit card application within a reasonable timeframe."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.402620Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e92aa9e240d911b97713"
+  },
+  "testCaseID": "Mod-2-US-2-TC-4",
+  "description": "This test case ensures that the user receives information on how to activate and use their new credit card if they are approved. It verifies that the information is communicated clearly and accurately to the user.",
+  "module": "credit cards",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:30:49.406620Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-2-US-2",
+  "testCaseType": "",
+  "release": "B_088",
+  "sprint": "",
+  "testCaseName": " Credit Card Activation and Usage Information",
+  "testStep": [
+    "Receive approval for a credit card application.",
+    "Check for information on how to activate and use the new credit card."
+  ],
+  "expectedResult": [
+    "The user should receive clear and accurate information on how to activate and use their new credit card if they are approved."
+  ],
+  "jiraProjectKey": "PR",
+  "lastUpdated": "2024-08-22T07:30:49.406620Z",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c431"
+  },
+  "testCaseID": "Mod-1-US-1-TC-1",
+  "description": "This test case verifies that the employee's personal information is displayed on their profile page. It ensures that the HR manager can view accurate employee records.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:30.365719Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Display Employee Personal Information",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Check for the presence of the fields: name, address, contact details, and emergency contact details."
+  ],
+  "expectedResult": [
+    "The employee's personal information should be displayed on their profile page."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c432"
+  },
+  "testCaseID": "Mod-1-US-1-TC-2",
+  "description": "This test case verifies that the HR manager can edit the employee's personal information. It ensures that the HR manager can maintain accurate employee records.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.040659Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Edit Employee Personal Information",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button.",
+    "4. Modify the personal information fields.",
+    "5. Click on the save button."
+  ],
+  "expectedResult": [
+    "The employee's personal information should be updated with the modified values."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c433"
+  },
+  "testCaseID": "Mod-1-US-1-TC-3",
+  "description": "This test case verifies that the HR manager can edit the employee's emergency contact details. It ensures that the HR manager can maintain accurate employee records.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.046682Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Edit Emergency Contact Details",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button for the emergency contact details.",
+    "4. Modify the emergency contact details fields.",
+    "5. Click on the save button."
+  ],
+  "expectedResult": [
+    "The employee's emergency contact details should be updated with the modified values."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c434"
+  },
+  "testCaseID": "Mod-1-US-1-TC-4",
+  "description": "This test case verifies that the HR manager can view the employee's emergency contact details. It ensures that the HR manager can access important information in case of an emergency.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.049668Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " View Emergency Contact Details",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Check for the presence of the emergency contact details fields: name, relationship, and contact number."
+  ],
+  "expectedResult": [
+    "The employee's emergency contact details should be displayed on their profile page."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c435"
+  },
+  "testCaseID": "Mod-1-US-1-TC-5",
+  "description": "This test case verifies that the HR manager cannot save the employee's personal information if any of the required fields are missing. It ensures that the HR manager enters all necessary information for accurate employee records.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.052668Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Missing Personal Information Fields",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Remove any of the required personal information fields.",
+    "4. Click on the save button."
+  ],
+  "expectedResult": [
+    "The system should not allow the form submission and should display a message indicating that the missing fields need to be filled."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c436"
+  },
+  "testCaseID": "Mod-1-US-1-TC-6",
+  "description": "This test case verifies that the HR manager cannot save the employee's emergency contact details if any of the required fields are missing. It ensures that the HR manager enters all necessary information for accurate employee records.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.055668Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Missing Emergency Contact Details Fields",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button for the emergency contact details.",
+    "4. Remove any of the required emergency contact details fields.",
+    "5. Click on the save button."
+  ],
+  "expectedResult": [
+    "The system should not allow the form submission and should display a message indicating that the missing fields need to be filled."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c437"
+  },
+  "testCaseID": "Mod-1-US-1-TC-7",
+  "description": "This test case verifies that the HR manager cannot save the employee's contact details if they are invalid. It ensures that the HR manager enters accurate contact information for the employee.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.058672Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Invalid Contact Details",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Modify the contact details fields with invalid information.",
+    "4. Click on the save button."
+  ],
+  "expectedResult": [
+    "The system should not allow the form submission and should display a message indicating that the contact details are invalid."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c438"
+  },
+  "testCaseID": "Mod-1-US-1-TC-8",
+  "description": "This test case verifies that the HR manager cannot save the employee's emergency contact details if they are invalid. It ensures that the HR manager enters accurate emergency contact information for the employee.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.061676Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Invalid Emergency Contact Details",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button for the emergency contact details.",
+    "4. Modify the emergency contact details fields with invalid information.",
+    "5. Click on the save button."
+  ],
+  "expectedResult": [
+    "The system should not allow the form submission and should display a message indicating that the emergency contact details are invalid."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c439"
+  },
+  "testCaseID": "Mod-1-US-1-TC-9",
+  "description": "This test case verifies that the HR manager can edit the employee's emergency contact details relationship. It ensures that the HR manager can maintain accurate emergency contact information for the employee.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.064677Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Edit Emergency Contact Details Relationship",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button for the emergency contact details.",
+    "4. Modify the relationship field.",
+    "5. Click on the save button."
+  ],
+  "expectedResult": [
+    "The employee's emergency contact details relationship should be updated with the modified value."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c43a"
+  },
+  "testCaseID": "Mod-1-US-1-TC-10",
+  "description": "This test case verifies that the HR manager can edit the employee's emergency contact details contact number. It ensures that the HR manager can maintain accurate emergency contact information for the employee.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.067679Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-1",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Edit Emergency Contact Details Contact Number",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button for the emergency contact details.",
+    "4. Modify the contact number field.",
+    "5. Click on the save button."
+  ],
+  "expectedResult": [
+    "The employee's emergency contact details contact number should be updated with the modified value."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c43b"
+  },
+  "testCaseID": "Mod-1-US-2-TC-1",
+  "description": "This test case verifies that the employee's job details such as job title, department, and manager are displayed on their profile page.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.070711Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Display Job Details on Employee Profile Page",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to an employee's profile page.",
+    "3. Check for the presence of the job details section.",
+    "4. Verify that the job title, department, and manager are displayed correctly."
+  ],
+  "expectedResult": [
+    "The employee's job details should be displayed accurately on their profile page."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c43c"
+  },
+  "testCaseID": "Mod-1-US-2-TC-2",
+  "description": "This test case verifies that the HR manager can edit the employee's job details such as job title, department, and manager.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.073683Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Edit Job Details by HR Manager",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to an employee's profile page.",
+    "3. Click on the edit button in the job details section.",
+    "4. Update the job title, department, or manager.",
+    "5. Save the changes.",
+    "6. Verify that the job details have been updated correctly."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to edit the employee's job details and the changes should be saved accurately."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c43d"
+  },
+  "testCaseID": "Mod-1-US-2-TC-3",
+  "description": "This test case verifies that the job title accurately reflects the employee's role and responsibilities.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.076683Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Accurate Job Title Reflecting Employee's Role and Responsibilities",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to an employee's profile page.",
+    "3. Check the job title in the job details section.",
+    "4. Verify that the job title accurately reflects the employee's role and responsibilities."
+  ],
+  "expectedResult": [
+    "The job title should accurately reflect the employee's role and responsibilities."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c43e"
+  },
+  "testCaseID": "Mod-1-US-2-TC-4",
+  "description": "This test case verifies that the employee's department is displayed on their profile page.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.079690Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Display Department on Employee Profile Page",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to an employee's profile page.",
+    "3. Check for the presence of the department in the job details section.",
+    "4. Verify that the department is displayed correctly."
+  ],
+  "expectedResult": [
+    "The employee's department should be displayed accurately on their profile page."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c43f"
+  },
+  "testCaseID": "Mod-1-US-2-TC-5",
+  "description": "This test case verifies that the HR manager can edit the employee's department.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.081691Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Edit Department by HR Manager",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to an employee's profile page.",
+    "3. Click on the edit button in the job details section.",
+    "4. Update the department.",
+    "5. Save the changes.",
+    "6. Verify that the department has been updated correctly."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to edit the employee's department and the changes should be saved accurately."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c440"
+  },
+  "testCaseID": "Mod-1-US-2-TC-6",
+  "description": "This test case verifies that the employee's manager is displayed on their profile page.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.087693Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Display Manager on Employee Profile Page",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to an employee's profile page.",
+    "3. Check for the presence of the manager in the job details section.",
+    "4. Verify that the manager is displayed correctly."
+  ],
+  "expectedResult": [
+    "The employee's manager should be displayed accurately on their profile page."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c441"
+  },
+  "testCaseID": "Mod-1-US-2-TC-7",
+  "description": "This test case verifies that the HR manager can edit the employee's manager.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.090692Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Edit Manager by HR Manager",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to an employee's profile page.",
+    "3. Click on the edit button in the job details section.",
+    "4. Update the manager.",
+    "5. Save the changes.",
+    "6. Verify that the manager has been updated correctly."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to edit the employee's manager and the changes should be saved accurately."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c442"
+  },
+  "testCaseID": "Mod-1-US-2-TC-8",
+  "description": "This test case verifies that the HR manager can edit the employee's job title.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.097701Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Job Title Editable by HR Manager",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to an employee's profile page.",
+    "3. Click on the edit button in the job details section.",
+    "4. Update the job title.",
+    "5. Save the changes.",
+    "6. Verify that the job title has been updated correctly."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to edit the employee's job title and the changes should be saved accurately."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c443"
+  },
+  "testCaseID": "Mod-1-US-2-TC-9",
+  "description": "This test case verifies that the HR manager can edit the employee's department.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.103704Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Department Editable by HR Manager",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to an employee's profile page.",
+    "3. Click on the edit button in the job details section.",
+    "4. Update the department.",
+    "5. Save the changes.",
+    "6. Verify that the department has been updated correctly."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to edit the employee's department and the changes should be saved accurately."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c444"
+  },
+  "testCaseID": "Mod-1-US-2-TC-10",
+  "description": "This test case verifies that the HR manager can edit the employee's manager.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.111711Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-2",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Manager Editable by HR Manager",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to an employee's profile page.",
+    "3. Click on the edit button in the job details section.",
+    "4. Update the manager.",
+    "5. Save the changes.",
+    "6. Verify that the manager has been updated correctly."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to edit the employee's manager and the changes should be saved accurately."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c445"
+  },
+  "testCaseID": "Mod-1-US-3-TC-1",
+  "description": "This test case verifies that the employee's salary details are displayed on their profile page as per the HR manager's requirement. It ensures that the salary amount, pay frequency, and payment method are accurately displayed.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.117718Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-3",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Display Salary Details",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Check for the presence of the salary details section.",
+    "4. Verify that the salary amount, pay frequency, and payment method are accurately displayed."
+  ],
+  "expectedResult": [
+    "The employee's salary details should be displayed on their profile page with accurate information."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c446"
+  },
+  "testCaseID": "Mod-1-US-3-TC-2",
+  "description": "This test case verifies that the HR manager can edit the employee's salary details as per the requirement. It ensures that the changes made by the HR manager are accurately reflected in the system.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.120721Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-3",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Edit Salary Details",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button in the salary details section.",
+    "4. Make the necessary changes to the salary amount, pay frequency, and payment method.",
+    "5. Save the changes.",
+    "6. Verify that the changes made by the HR manager are accurately reflected in the system."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to edit the employee's salary details, and the changes made should be accurately reflected in the system."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c447"
+  },
+  "testCaseID": "Mod-1-US-3-TC-3",
+  "description": "This test case verifies that the salary amount displayed on the employee's profile page accurately reflects their compensation package. It ensures that the salary amount is calculated correctly based on the employee's compensation package.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.123724Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-3",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Accurate Salary Amount",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Check the employee's compensation package.",
+    "4. Verify that the salary amount displayed on the profile page accurately reflects the employee's compensation package."
+  ],
+  "expectedResult": [
+    "The salary amount displayed on the employee's profile page should accurately reflect their compensation package."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c448"
+  },
+  "testCaseID": "Mod-1-US-3-TC-4",
+  "description": "This test case verifies that the pay frequency displayed on the employee's profile page accurately reflects their compensation package. It ensures that the pay frequency is calculated correctly based on the employee's compensation package.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.126727Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-3",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Accurate Pay Frequency",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Check the employee's compensation package.",
+    "4. Verify that the pay frequency displayed on the profile page accurately reflects the employee's compensation package."
+  ],
+  "expectedResult": [
+    "The pay frequency displayed on the employee's profile page should accurately reflect their compensation package."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c449"
+  },
+  "testCaseID": "Mod-1-US-3-TC-5",
+  "description": "This test case verifies that the payment method displayed on the employee's profile page accurately reflects their compensation package. It ensures that the payment method is correctly displayed based on the employee's compensation package.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.129731Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-3",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Accurate Payment Method",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Check the employee's compensation package.",
+    "4. Verify that the payment method displayed on the profile page accurately reflects the employee's compensation package."
+  ],
+  "expectedResult": [
+    "The payment method displayed on the employee's profile page should accurately reflect their compensation package."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c44a"
+  },
+  "testCaseID": "Mod-1-US-3-TC-6",
+  "description": "This test case verifies that the HR manager can edit the salary amount of the employee as per the requirement. It ensures that the changes made by the HR manager are accurately reflected in the system.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.132734Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-3",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Edit Salary Amount",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button in the salary details section.",
+    "4. Make the necessary changes to the salary amount.",
+    "5. Save the changes.",
+    "6. Verify that the changes made by the HR manager are accurately reflected in the system."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to edit the salary amount of the employee, and the changes made should be accurately reflected in the system."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c44b"
+  },
+  "testCaseID": "Mod-1-US-3-TC-7",
+  "description": "This test case verifies that the HR manager can edit the pay frequency of the employee as per the requirement. It ensures that the changes made by the HR manager are accurately reflected in the system.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.135733Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-3",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Edit Pay Frequency",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button in the salary details section.",
+    "4. Make the necessary changes to the pay frequency.",
+    "5. Save the changes.",
+    "6. Verify that the changes made by the HR manager are accurately reflected in the system."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to edit the pay frequency of the employee, and the changes made should be accurately reflected in the system."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c44c"
+  },
+  "testCaseID": "Mod-1-US-3-TC-8",
+  "description": "This test case verifies that the HR manager can edit the payment method of the employee as per the requirement. It ensures that the changes made by the HR manager are accurately reflected in the system.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.139733Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-3",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Edit Payment Method",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button in the salary details section.",
+    "4. Make the necessary changes to the payment method.",
+    "5. Save the changes.",
+    "6. Verify that the changes made by the HR manager are accurately reflected in the system."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to edit the payment method of the employee, and the changes made should be accurately reflected in the system."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c44d"
+  },
+  "testCaseID": "Mod-1-US-3-TC-9",
+  "description": "This test case verifies that the system does not allow the HR manager to enter an invalid salary amount. It ensures that appropriate error messages are displayed when an invalid salary amount is entered.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.142733Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-3",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Invalid Salary Amount",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button in the salary details section.",
+    "4. Enter an invalid salary amount (e.g., negative value).",
+    "5. Save the changes.",
+    "6. Verify that appropriate error messages are displayed."
+  ],
+  "expectedResult": [
+    "The system should not allow the HR manager to enter an invalid salary amount and should display appropriate error messages."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c44e"
+  },
+  "testCaseID": "Mod-1-US-3-TC-10",
+  "description": "This test case verifies that the system does not allow the HR manager to enter an invalid pay frequency. It ensures that appropriate error messages are displayed when an invalid pay frequency is entered.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.148738Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-3",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Invalid Pay Frequency",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button in the salary details section.",
+    "4. Enter an invalid pay frequency (e.g., negative value).",
+    "5. Save the changes.",
+    "6. Verify that appropriate error messages are displayed."
+  ],
+  "expectedResult": [
+    "The system should not allow the HR manager to enter an invalid pay frequency and should display appropriate error messages."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c44f"
+  },
+  "testCaseID": "Mod-1-US-4-TC-1",
+  "description": "This test case verifies that the employee's performance review history is displayed on their profile page as per the acceptance criteria.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.151740Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-4",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Performance Review History Display",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Check for the presence of the performance review history section.",
+    "4. Verify that the section includes the date of the review, the reviewer's name, and the review score."
+  ],
+  "expectedResult": [
+    "The employee's performance review history should be displayed on their profile page with the required details."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c450"
+  },
+  "testCaseID": "Mod-1-US-4-TC-2",
+  "description": "This test case verifies that the HR manager can edit the employee's performance review history as per the acceptance criteria.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.154742Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-4",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Performance Review History Edit",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the edit button in the performance review history section.",
+    "4. Edit the review score or reviewer's name.",
+    "5. Save the changes.",
+    "6. Verify that the changes are reflected in the performance review history section."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to edit the employee's performance review history and the changes should be reflected in the section."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c451"
+  },
+  "testCaseID": "Mod-1-US-4-TC-3",
+  "description": "This test case verifies that the HR manager can delete a performance review from the employee's history as per the acceptance criteria.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.157744Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-4",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Performance Review History Delete",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the delete button next to a performance review.",
+    "4. Confirm the deletion.",
+    "5. Verify that the deleted review is no longer displayed in the performance review history section."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to delete a performance review from the employee's history and the deleted review should no longer be displayed in the section."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c452"
+  },
+  "testCaseID": "Mod-1-US-4-TC-4",
+  "description": "This test case verifies that the performance review history section can be sorted by date, reviewer's name, or review score as per the acceptance criteria.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.163749Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-4",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Performance Review History Sorting",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the sorting dropdown in the performance review history section.",
+    "4. Select a sorting option (date, reviewer's name, or review score).",
+    "5. Verify that the section is sorted according to the selected option."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to sort the performance review history section by date, reviewer's name, or review score and the section should be sorted accordingly."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c453"
+  },
+  "testCaseID": "Mod-1-US-4-TC-5",
+  "description": "This test case verifies that the HR manager can search for a specific performance review in the employee's history as per the acceptance criteria.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.168752Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-4",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Performance Review History Search",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Enter a search term in the search bar in the performance review history section.",
+    "4. Verify that the section displays only the performance reviews that match the search term."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to search for a specific performance review in the employee's history and the section should display only the matching reviews."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c454"
+  },
+  "testCaseID": "Mod-1-US-4-TC-6",
+  "description": "This test case verifies that the performance review history section is paginated as per the acceptance criteria.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.171754Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-4",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Performance Review History Pagination",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Verify that the performance review history section is paginated.",
+    "4. Click on the next page button.",
+    "5. Verify that the next page of performance reviews is displayed."
+  ],
+  "expectedResult": [
+    "The performance review history section should be paginated and the HR manager should be able to navigate to the next page of reviews."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+},
+{
+  "_id": {
+    "$oid": "66c6e996b49d76458238c455"
+  },
+  "testCaseID": "Mod-1-US-4-TC-7",
+  "description": "This test case verifies that the HR manager can export the employee's performance review history as per the acceptance criteria.",
+  "module": "Human Resource",
+  "priority": "Normal",
+  "projectid": "",
+  "createdOn": "2024-08-22T07:32:33.174758Z",
+  "scriptName": "",
+  "linkedUserstories": "Mod-1-US-4",
+  "testCaseType": "",
+  "release": "R_02",
+  "sprint": "",
+  "testCaseName": " Performance Review History Export",
+  "testStep": [
+    "1. Log in as an HR manager.",
+    "2. Navigate to the employee's profile page.",
+    "3. Click on the export button in the performance review history section.",
+    "4. Verify that the exported file includes the date of the review, the reviewer's name, and the review score."
+  ],
+  "expectedResult": [
+    "The HR manager should be able to export the employee's performance review history and the exported file should include the required details."
+  ],
+  "jiraProjectKey": "HCM",
+  "lastUpdated": "",
+  "businessCritical": true,
+  "_class": "com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase"
+}]
