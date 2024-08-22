@@ -1,5 +1,6 @@
 package com.cognizant.collector.DatabaseCollector.service;
 
+
 import com.cognizant.collector.DatabaseCollector.Scheduler.SchedulerInfo;
 import com.cognizant.collector.DatabaseCollector.beans.RTS.Defect;
 import com.cognizant.collector.DatabaseCollector.beans.RTS.TestCase;
@@ -134,29 +135,47 @@ public class DataTransferService {
                         Object existingLastUpdatedValue = getFieldValue(existingDocument, lastUpdatedField);
                         Date existingLastUpdatedDate = parseDate(existingLastUpdatedValue);
 
-                        // If the existing document's lastUpdated field is older, update the document
-                        if (lastUpdatedDate != null && (existingLastUpdatedDate == null || lastUpdatedDate.after(existingLastUpdatedDate))) {
-                            Update update = new Update();
-                            Map<String, Object> fields = getFieldValues(item);
+                        // If the source document's lastUpdated is newer
+                        if (lastUpdatedDate != null &&
+                                (existingLastUpdatedDate == null || lastUpdatedDate.after(existingLastUpdatedDate))) {
 
-                            // Update fields except _id and lastUpdated
-                            fields.forEach((key, value) -> {
-                                if (!key.equals(idField) && !key.equals(lastUpdatedField)) {
-                                    update.set(key, value);
+                            Map<String, Object> sourceFields = getFieldValues(item);
+                            Map<String, Object> targetFields = getFieldValues(existingDocument);
+
+                            // Remove fields that are not to be updated
+                            sourceFields.remove(idField);
+                            sourceFields.remove(lastUpdatedField);
+
+                            // Check for changes
+                            boolean hasChanges = false;
+                            for (Map.Entry<String, Object> entry : sourceFields.entrySet()) {
+                                String key = entry.getKey();
+                                Object value = entry.getValue();
+                                if (!Objects.equals(value, targetFields.get(key))) {
+                                    hasChanges = true;
+                                    break;
                                 }
-                            });
+                            }
 
-                            // Always update lastUpdated to current date/time
-                            update.set(lastUpdatedField, new Date());
+                            // Update only if there are actual changes
+                            if (hasChanges) {
+                                Update update = new Update();
+                                sourceFields.forEach(update::set);
 
-                            targetMongoTemplate.upsert(query, update, collectionName);
-                            System.out.println("Document with ID " + idValue + " updated in collection " + collectionName);
+                                // Update lastUpdated with the value from source
+                                update.set(lastUpdatedField, DATE_FORMAT.format(lastUpdatedDate));
+
+                                targetMongoTemplate.upsert(query, update, collectionName);
+                                System.out.println("Document with ID " + idValue + " updated in collection " + collectionName);
+                            } else {
+                                System.out.println("Document with ID " + idValue + " has no changes to update in collection " + collectionName);
+                            }
                         } else {
                             System.out.println("Document with ID " + idValue + " is up-to-date in collection " + collectionName);
                         }
                     } else {
                         // If the document doesn't exist, insert it
-                        item = setLastUpdatedField(item, lastUpdatedField);
+                        item = setLastUpdatedField(item, lastUpdatedField, lastUpdatedDate);
                         targetMongoTemplate.insert(item, collectionName);
                         System.out.println("Document with ID " + idValue + " inserted into collection " + collectionName);
                     }
@@ -174,8 +193,12 @@ public class DataTransferService {
         if (dateObject instanceof Date) {
             return (Date) dateObject;
         } else if (dateObject instanceof String) {
+            String dateString = (String) dateObject;
+            if (dateString == null || dateString.trim().isEmpty()) {
+                return null;
+            }
             try {
-                return DATE_FORMAT.parse((String) dateObject);
+                return DATE_FORMAT.parse(dateString);
             } catch (ParseException e) {
                 System.err.println("Error parsing date: " + e.getMessage());
                 return null;
@@ -208,12 +231,12 @@ public class DataTransferService {
         return fieldValues;
     }
 
-    // Set the lastUpdated field to the current date/time
-    private <T> T setLastUpdatedField(T item, String lastUpdatedField) {
+    // Set the lastUpdated field to the provided date
+    private <T> T setLastUpdatedField(T item, String lastUpdatedField, Date lastUpdatedDate) {
         try {
             Field field = item.getClass().getDeclaredField(lastUpdatedField);
             field.setAccessible(true);
-            field.set(item, new Date());
+            field.set(item, DATE_FORMAT.format(lastUpdatedDate));
         } catch (Exception e) {
             System.err.println("Error setting lastUpdated field: " + e.getMessage());
         }
@@ -224,7 +247,7 @@ public class DataTransferService {
     private void updateSchedulerInfo(String collectionName) {
         Query query = new Query(Criteria.where("collectionName").is(collectionName));
         Update update = new Update()
-                .set("lastRun", new Date())
+                .set("lastRun", DATE_FORMAT.format(new Date()))
                 .set("status", "Completed");
 
         targetMongoTemplate.upsert(query, update, SchedulerInfo.class, "SchedulerInfo");
