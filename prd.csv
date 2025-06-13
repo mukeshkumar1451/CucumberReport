@@ -1,0 +1,19 @@
+"product_id";"description";"discount";"image";"price";"product_name";"quantity";"special_price";"category_id";"seller_id"
+1;"Experience the latest in mobile technology with advanced cameras, powerful processing, and an all-day battery.";10.0;"289f4b2e-70b7-4fb4-b889-51e527308aad.png";1450.0;"Iphone Xs max";90;1305.0;1;0
+2;"Ultra-thin laptop with Apple's M2 chip, providing fast performance in a lightweight, portable design.";20.0;"95b482c5-7844-4927-982e-37130a719fcd.png";2550.0;"MacBook Air M2s";40;2040.0;1;0
+52;"Experience the latest in Semi battery technology with advanced cameras, powerful processing, and an all-day battery.";10.0;"7deb19f8-642d-4e6e-ba8c-57bfc96add82.png";90.0;"Battery";86;81.0;2;0
+102;"Soft and breathable cotton t-shirt perfect for everyday wear, available in multiple colors.";15.0;"5dae41dd-202b-44be-8f5d-ea4785c63b9a.png";499.0;"Men's Cotton T-Shirt";146;424.15;3;0
+103;"Stylish and durable denim jacket with a modern fit, ideal for casual outings.";20.0;"8874022f-a299-475f-9187-8145852bd02f.png";1299.0;"Women's Denim Jacket";80;1039.2;3;0
+104;"Comfortable fleece-lined hoodie with adjustable drawstrings and a front pocket.";10.0;"7a67d075-39bc-4887-ae1d-96d41baf0d5c.png";999.0;"Unisex Hoodie";100;899.1;3;0
+105;"Elegant slim-fit trousers suitable for office wear and formal occasions.";18.0;"264d4f55-6c08-4330-bedc-50db90aecf37.png";1199.0;"Formal Trousers";60;983.1800000000001;3;0
+152;"Adorable and cozy pajama set made from soft cotton, perfect for a good night's sleep.";25.0;"dde33e4c-0510-46ad-b84d-5129da20bb82.png";699.0;"Kids' Pajama Set";120;524.25;3;0
+153;"Compact and high-quality wireless earbuds with noise cancellation and long battery life.";15.0;"6617135d-a0df-476f-9464-c7abb91f6a7f.png";2499.0;"Wireless Earbuds";200;2124.15;2;0
+154;"Full HD Smart LED TV with built-in streaming apps and voice control support.";20.0;"8cd37ecc-8239-4932-9e82-d0bac718a3cf.png";24999.0;"Smart LED TV 43""";50;19999.2;2;0
+155;"Portable Bluetooth speaker with deep bass, waterproof design, and 12-hour playtime.";10.0;"8dc1c0cd-b0e9-4f76-9b1b-8377365db78c.png";1999.0;"Bluetooth Speaker";120;1799.1;2;0
+156;"Latest smartphone with 128GB storage, triple camera setup, and fast charging support.";12.0;"22ae48a2-2a44-4a54-a2e5-12895cbccdb0.png";18999.0;"Smartphone - 128GB";75;16719.12;2;0
+157;"Powerful laptop with Intel i5 processor, 8GB RAM, and 512GB SSD for multitasking.";18.0;"d5d7973b-21a3-41e0-9356-3b9ac65334c7.png";45999.0;"Laptop - 15.6"" i5";40;37719.18;2;0
+158;"Eco-friendly, non-slip yoga mat with extra cushioning for comfort during workouts.";10.0;"23d6d743-fac8-406c-9a73-81e326926a45.png";899.0;"Yoga Mat";100;809.1;1;0
+159;"Space-saving adjustable dumbbells with quick weight change mechanism, ideal for home workouts.";15.0;"d9f4d0c0-fa8a-4ffb-bbad-f4952be02141.png";3499.0;"Adjustable Dumbbells";60;2974.15;1;0
+160;"Smart fitness band with heart rate monitor, step counter, and sleep tracking features.";12.0;"de6b2a79-760a-4bce-af6f-757d4b886c11.png";1999.0;"Fitness Tracker Band";150;1759.12;1;0
+161;"Set of 5 resistance bands with varying tension levels for strength training and rehabilitation.";20.0;"21e202b4-e727-4093-ba52-1629fbd7daf8.png";599.0;"Resistance Bands Set";200;479.2;1;0
+162;"Compact foldable treadmill with digital display, speed control, and shock absorption system.";18.0;"ea483a95-f9aa-416c-a869-9040ea06f3f6.png";24999.0;"Treadmill - Foldable";30;20499.18;1;0
