@@ -1,8 +1,6 @@
-error: SyntaxError: C:\Users\mukes\StudioProjects\multi-sport-booking-appfrontend\node_modules\react-native\index.js: Missing semicolon. (340:1)
+> Task :gradle-plugin:settings-plugin:compileKotlin FAILED
+e: file:///C:/multi-sport-booking-appfrontend-main/Cricketbox/node_modules/@react-native/gradle-plugin/settings-plugin/src/main/kotlin/com/facebook/react/ReactSettingsExtension.kt:26:16 Unresolved reference 'layout'.
+e: file:///C:/multi-sport-booking-appfrontend-main/Cricketbox/node_modules/@react-native/gradle-plugin/settings-plugin/src/main/kotlin/com/facebook/react/ReactSettingsExtension.kt:28:16 Unresolved reference 'layout'.
+e: file:///C:/multi-sport-booking-appfrontend-main/Cricketbox/node_modules/@react-native/gradle-plugin/settings-plugin/src/main/kotlin/com/facebook/react/ReactSettingsExtension.kt:50:42 Unresolved reference 'layout'.
+e: file:///C:/multi-sport-booking-appfrontend-main/Cricketbox/node_modules/@react-native/gradle-plugin/settings-plugin/src/main/kotlin/com/facebook/react/ReactSettingsExtension.kt:52:20 Unresolved reference 'layout'.
 
-  338 |   },
-  339 |   // #endregion
-> 340 | } as ReactNativePublicAPI;
-      |  ^
-  341 |
-  342 | if (__DEV__) {
