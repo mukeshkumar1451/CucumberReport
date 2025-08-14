@@ -1,0 +1,16 @@
+appId: com.yourcompany.multisportbooking
+platform: android
+---
+- launchApp
+- tapOn: "Login"
+- inputText: "test@mail.com"
+- tapOn: "Password"
+- inputText: "password123"
+- tapOn: "Login"
+- assertVisible: "Home"
+- tapOn: "MyBookings"
+- assertVisible: "Upcoming"
+- tapOn: "Profile"
+- assertVisible: "Logout"
+- tapOn: "Logout"
+- assertVisible: "Login"
